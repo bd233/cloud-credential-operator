@@ -25,6 +25,7 @@ func NewAliababaCloudCmd() *cobra.Command {
 	}
 
 	createCmd.AddCommand(NewAttachRAMPolicyCmd())
+	createCmd.AddCommand(NewDeleteRAMPolicyCmd())
 
 	return createCmd
 }
